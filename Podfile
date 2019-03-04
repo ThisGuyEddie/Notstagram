@@ -6,13 +6,13 @@ target 'Notstagram' do
   use_frameworks!
 
   # Pods for Notstagram
+    pod "Parse"
+    pod "AlamofireImage"
+    pod 'FBSDKLoginKit'
 
   target 'NotstagramTests' do
     inherit! :search_paths
     # Pods for testing
-    pod "Parse"
-    pod "AlamofireImage"
-    pod 'FBSDKLoginKit'
 
 
   end

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5387AA222DB3DE00C38D64 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5387A9222DB3DE00C38D64 /* LoginViewController.swift */; };
+		2C5387AC222DB3F600C38D64 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5387AB222DB3F600C38D64 /* FeedViewController.swift */; };
+		2C5387AE222DC91A00C38D64 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5387AD222DC91A00C38D64 /* CameraViewController.swift */; };
+		2C5387B0222DD83700C38D64 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5387AF222DD83700C38D64 /* PostCell.swift */; };
 		2CED3735222A01C60067541D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED3734222A01C60067541D /* AppDelegate.swift */; };
-		2CED3737222A01C60067541D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED3736222A01C60067541D /* ViewController.swift */; };
 		2CED373A222A01C60067541D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED3738222A01C60067541D /* Main.storyboard */; };
 		2CED373C222A01C80067541D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED373B222A01C80067541D /* Assets.xcassets */; };
 		2CED373F222A01C80067541D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED373D222A01C80067541D /* LaunchScreen.storyboard */; };
@@ -38,9 +41,12 @@
 
 /* Begin PBXFileReference section */
 		022216AA99F6C6D11AFD0872 /* Pods-NotstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-NotstagramUITests/Pods-NotstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C5387A9222DB3DE00C38D64 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2C5387AB222DB3F600C38D64 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2C5387AD222DC91A00C38D64 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2C5387AF222DD83700C38D64 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		2CED3731222A01C60067541D /* Notstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CED3734222A01C60067541D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CED3736222A01C60067541D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CED3739222A01C60067541D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CED373B222A01C80067541D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CED373E222A01C80067541D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,11 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				2CED3734222A01C60067541D /* AppDelegate.swift */,
-				2CED3736222A01C60067541D /* ViewController.swift */,
 				2CED3738222A01C60067541D /* Main.storyboard */,
 				2CED373B222A01C80067541D /* Assets.xcassets */,
 				2CED373D222A01C80067541D /* LaunchScreen.storyboard */,
 				2CED3740222A01C80067541D /* Info.plist */,
+				2C5387A9222DB3DE00C38D64 /* LoginViewController.swift */,
+				2C5387AB222DB3F600C38D64 /* FeedViewController.swift */,
+				2C5387AD222DC91A00C38D64 /* CameraViewController.swift */,
+				2C5387AF222DD83700C38D64 /* PostCell.swift */,
 			);
 			path = Notstagram;
 			sourceTree = "<group>";
@@ -162,7 +171,6 @@
 				CD43E4404BA4A9EC95DA9F90 /* Pods-NotstagramUITests.debug.xcconfig */,
 				022216AA99F6C6D11AFD0872 /* Pods-NotstagramUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -177,6 +185,7 @@
 				2CED372D222A01C60067541D /* Sources */,
 				2CED372E222A01C60067541D /* Frameworks */,
 				2CED372F222A01C60067541D /* Resources */,
+				9F82E1BA83A9D638D4996282 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,7 +204,6 @@
 				2CED3741222A01C80067541D /* Sources */,
 				2CED3742222A01C80067541D /* Frameworks */,
 				2CED3743222A01C80067541D /* Resources */,
-				253F987C3B600AD2BCD35C8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,7 +305,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		253F987C3B600AD2BCD35C8B /* [CP] Embed Pods Frameworks */ = {
+		9F82E1BA83A9D638D4996282 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,7 +313,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NotstagramTests/Pods-NotstagramTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Notstagram/Pods-Notstagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
@@ -326,7 +334,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotstagramTests/Pods-NotstagramTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notstagram/Pods-Notstagram-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B44B774DB6BB1D44F7D83673 /* [CP] Check Pods Manifest.lock */ = {
@@ -402,8 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CED3737222A01C60067541D /* ViewController.swift in Sources */,
+				2C5387AA222DB3DE00C38D64 /* LoginViewController.swift in Sources */,
+				2C5387AE222DC91A00C38D64 /* CameraViewController.swift in Sources */,
+				2C5387AC222DB3F600C38D64 /* FeedViewController.swift in Sources */,
 				2CED3735222A01C60067541D /* AppDelegate.swift in Sources */,
+				2C5387B0222DD83700C38D64 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
