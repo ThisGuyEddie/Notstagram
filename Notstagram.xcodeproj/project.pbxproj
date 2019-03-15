@@ -11,6 +11,7 @@
 		2C5387AC222DB3F600C38D64 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5387AB222DB3F600C38D64 /* FeedViewController.swift */; };
 		2C5387AE222DC91A00C38D64 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5387AD222DC91A00C38D64 /* CameraViewController.swift */; };
 		2C5387B0222DD83700C38D64 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5387AF222DD83700C38D64 /* PostCell.swift */; };
+		2CE633BF223B1DC3008C57B8 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE633BE223B1DC3008C57B8 /* CommentCell.swift */; };
 		2CED3735222A01C60067541D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CED3734222A01C60067541D /* AppDelegate.swift */; };
 		2CED373A222A01C60067541D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CED3738222A01C60067541D /* Main.storyboard */; };
 		2CED373C222A01C80067541D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CED373B222A01C80067541D /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		2C5387AB222DB3F600C38D64 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2C5387AD222DC91A00C38D64 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2C5387AF222DD83700C38D64 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2CE633BE223B1DC3008C57B8 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		2CED3731222A01C60067541D /* Notstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CED3734222A01C60067541D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CED3739222A01C60067541D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				2C5387AB222DB3F600C38D64 /* FeedViewController.swift */,
 				2C5387AD222DC91A00C38D64 /* CameraViewController.swift */,
 				2C5387AF222DD83700C38D64 /* PostCell.swift */,
+				2CE633BE223B1DC3008C57B8 /* CommentCell.swift */,
 			);
 			path = Notstagram;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -330,6 +334,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +420,7 @@
 				2C5387AC222DB3F600C38D64 /* FeedViewController.swift in Sources */,
 				2CED3735222A01C60067541D /* AppDelegate.swift in Sources */,
 				2C5387B0222DD83700C38D64 /* PostCell.swift in Sources */,
+				2CE633BF223B1DC3008C57B8 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@ target 'Notstagram' do
   # Pods for Notstagram
     pod "Parse"
     pod "AlamofireImage"
+    pod "MessageInputBar"
     pod 'FBSDKLoginKit'
 
   target 'NotstagramTests' do
